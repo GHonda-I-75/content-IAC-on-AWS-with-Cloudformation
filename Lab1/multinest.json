@@ -4,14 +4,14 @@
         "myStack" : {
 	       "Type" : "AWS::CloudFormation::Stack",
 	       "Properties" : {
-              "TemplateURL" : "https://s3.amazonaws.com/lab1bucket731222/lab1.yml",
+              "TemplateURL" : "https://s3.amazonaws.com/lab1bucket2345/lab1.yml",
               "TimeoutInMinutes" : "60"
 	       }
         },
         "myStack2" : {
             "Type" : "AWS::CloudFormation::Stack",
             "Properties" : {
-               "TemplateURL" : "https://s3.amazonaws.com/lab1bucket731222/lab1_s3.yml",
+               "TemplateURL" : "https://s3.amazonaws.com/lab1bucket2345/lab1_s3.yml",
                "TimeoutInMinutes" : "60"
             }
          }    
